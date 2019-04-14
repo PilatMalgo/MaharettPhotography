@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css?family=Dalmatins|Open+Sans+Condensed|Montserrat|Abel|Cardo|Open+Sans|Cinzel|Italiana|Montserrat+Alternates|Quicksand|EB+Garamond|Roboto:300,400,500,700|Tangerine|Sacramento|Shadows+Into+Light&subset=latin-ext");
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  box-shadow: none;
+}
+
+body, html {
+  color: #353b48;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  height: 100%;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+h3 {
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0px auto;
+  padding: 0 auto;
+}
+
+.splash {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  background-image: url("https://i.postimg.cc/9MgrpYqS/50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg");
+  height: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+.page-intro {
+  margin: auto;
+  text-align: center;
+}
+
+.main-title {
+  margin: 100px;
+  font-weight: normal;
+  color: #f5f6fa;
+  font-size: 35px;
+  font-family: Dalmatins;
+  letter-spacing: 18px;
+  text-shadow: 2px 1px 3px #000000;
+}
+
+.main-subtitle {
+  margin: 50px 0 100px 0;
+  font-weight: normal;
+  color: #fff;
+  font-size: 25px;
+  font-family: arual;
+  letter-spacing: 9px;
+  text-shadow: 5px 7px 2px #000000;
+}
+
+.btn {
+  padding: 15px 24px 15px 24px;
+  font-size: 14px;
+  background-color: grey;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 10%;
+  transition: all 2s;
+}
+
+.btn:hover {
+  color: #10ac84;
+  box-shadow: 2px 4px 10px #10ac84;
+}
+
+.section-title {
+  position: relative;
+  margin: 0 0 60px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-title:after {
+  position: absolute;
+  display: block;
+  content: '***';
+  width: 100px;
+  height: 5px;
+  left: 50%;
+  bottom: -16px;
+  margin-left: -50px;
+}
+
+.about {
+  width: 100%;
+  margin: -20px 0 0 0;
+  text-align: center;
+}
+
+.section-main-aboutMe {
+  position: relative;
+  margin: auto;
+  font-size: 21px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  width: 80%;
+  text-align: center;
+  height: 150px;
+  color: white;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.section-intro {
+  margin: 36px 0 0 0;
+}
+
+.section-intro i {
+  display: none;
+}
+
+.features {
+  height: auto;
+}
+
+.feature i {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  color: #353b48;
+  font-size: 52px;
+  bacground-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 3px 3px #b3b3b3;
+  transition: all 2s;
+}
+
+.feature i:hover {
+  text-shadow: 1px 1px 8px #000000;
+}
+
+.features-wrapper {
+  display: flex;
+}
+
+.feature {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  text-align: center;
+  margin: 24px 0 0 0;
+}
+
+.feature-title {
+  font-family: Tangerine;
+  font-size: 50px;
+}
+
+.feature-description {
+  margin: 24px 0 0 0;
+  padding: 0 24px;
+  font-size: 20px;
+}
+
+.navigation {
+  background-color: white;
+  opacity: 0.3;
+  padding: 12px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.navigation ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  transition: all 2s;
+}
+
+.navigation ul li a:hover {
+  text-shadow: 1px 1px 1px #000000;
+  font-weight: bold;
+}
+
+
+.upper_container {
+  padding: 50px 0 0 0;
+  width: 100%;
+  background-color: #7aaead;
+}
+
+.upper_container i {
+  box-shadow: 3px 1px black;
+  border-radius: 10%;
+}
+
+.statement {
+  background-image: url("https://i.postimg.cc/9MgrpYqS/50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 200px;
+}
+
+.statement p {
+  margin: 30px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-variant: inherit;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 5px 4px 10px black;
+}
+
+.quotes {
+  background-color: #dae7e7;
+  width: 100%;
+}
+
+.quotes-wrapper {
+  margin: 72px 0 0 0;
+}
+
+.quote {
+  width: 100%;
+  padding: 0 72px;
+}
+
+.quote blockquote {
+  padding: 0 36px;
+  text-align: center;
+}
+
+.quote q {
+  font-style: italic;
+  font-size: 25px;
+}
+
+.quote footer {
+  margin: 24px 0 0 0;
+  text-align: right;
+  font-size: 15px;
+}
+
+.flickity-page-dots {
+  bottom: 10px;
+}
+
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
+section.gallery {
+  padding: 60px 0 0 0;
+}
+
+.gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 72px 0 0 0;
+}
+
+.gallery-item {
+  position: relative;
+  margin: 0;
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: center;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-item:before {
+  position: absolute;
+  display: none;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.6;
+}
+
+.gallery-item figcaption {
+  text-transform: uppercase;
+  color: #f1f2f6;
+  position: absolute;
+  display: none;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.gallery-item:hover:before, .gallery-item:hover figcaption {
+  display: block;
+}
+
+.contact {
+  text-align: center;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  border: 1px solid white;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 32px;
+  border-radius: 50%;
+  margin-right: 1%;
+  box-shadow: 3px 5px gray;
+  bacground-color: #ffffff;
+  transition: all 2s;
+}
+
+.social-links li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #38ada9;
+  transition: all 2s;
+}
+
+.social-links li:hover {
+  box-shadow: 5px 9px 10px #38ada9;
+}
+
+.page-footer {
+  width: 100%;
+  background-color: #abcac9;
+  padding: 12px 0;
+}
+
+.page-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-footer p {
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 767px) and (max-width: 991px) {
+  .section-main-aboutMe {
+    position: relative;
+    margin: auto;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    width: 80%;
+    text-align: center;
+    height: 150px;
+    color: white;
+    text-shadow: 2px 2px 3px #000000;
+  }
+
+  .statement p {
+    font-size: 20px;
+  }
+
+  .upper_container {
+    padding: 20px 0 2px 0;
+  }
+
+  .main-title {
+    font-size: 50px;
+  }
+
+  .main-subtitle {
+    font-size: 15px;
+    display: none;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .feature-description {
+    font-size: 15px;
+  }
+
+  .feature-title {
+    font-family: Tangerine;
+    font-size: 30px;
+  }
+
+  .quote {
+    width: 100%;
+    padding: 0 60px;
+    margin: 50px 0 0 0;
+  }
+
+  .quote blockquote {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .quote q {
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .quotes {
+    background-color: #dae7e7;
+    width: 100%;
+    height: 50%;
+    padding: 20px 0 0px 0;
+  }
+
+  .flickity-page-dots .dot {
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white;
+    margin: 0px 20px 300px 0;
+  }
+
+  .flickity-page-dots .dot.is-selected {
+    background: white;
+  }
+}
